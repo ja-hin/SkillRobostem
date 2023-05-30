@@ -1,0 +1,107 @@
+.head{
+    
+    color: black; 
+   
+}
+.log{
+    display: flex;
+    width: 30%;
+    height: 30%;
+}
+.log img{
+    display: flex;
+    width: 30%;
+    height: 30%;
+    /* margin-right: -100px;. */
+
+}
+.logo h1{
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.head .icon{
+    margin-left: 10px;
+}
+header{
+    background-color: rgba(255, 255, 255, 0.2);
+    position: relative;
+}
+
+header ul{
+    padding: 30px 20px;
+}
+header li {
+    margin-right: 40px;
+    width: 50%;
+    
+}
+header ul li a {
+    color: black;
+    font-weight: 500;
+    transition: 0.5s;
+}
+header ul li a:hover {
+    color: #1eb2a6;
+
+}
+.start{
+    background-color: #5FCBE7;
+    padding: 30px 70px;
+    color: #fff;
+    clip-path: polygon(10% 0, 100% 0, 100% 100%,0 100%);
+    cursor: pointer;
+    font-weight: 600;
+   
+}
+.start:hover{
+    background-color: #5FCBE7;
+    color: black;
+    transition: 0.5s;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+.toggle{
+    display: none;
+    /* background-color: none; */
+}
+@media screen and (max-width:768px) {
+    .start{
+        clip-path: none;
+       
+    }
+    header{
+        margin: 0;
+        background-color: #5FCBE7;
+        position: relative;
+        
+    }
+    header ul.flexSBBB{
+        display: none;
+        
+    }
+    .toggle{
+        display: block;
+        background-color: transparent;
+        /* color: #fff; */
+        font-size: 30px;
+        position: absolute;
+        right: 20px;
+        top: -20px;
+        cursor: pointer;
+    }
+    .mobile-nav{
+        position: absolute;
+        top: 9vh;
+        left: 0;
+        width: 100%;
+        background-color: #1eb2a6;
+    }
+    header ul li{
+        margin-bottom: 20px;
+    }
+}
