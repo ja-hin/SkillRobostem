@@ -7,7 +7,7 @@ const programhome = () => {
   return (
     <>
     <Back title='Explore Courses'/>
-    <Programcard/>
+    
     </>
   )
 }
