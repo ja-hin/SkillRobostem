@@ -1,12 +1,15 @@
 import React from 'react'
 
-const programcard = () => {
+const Programcard = () => {
   return (
     <>
-    <h1>ProgramCard</h1>
-
+      <section className="programcard">
+        <div className="container grid2">
+          
+        </div>
+      </section>
     </>
   )
 }
 
-export default programcard
+export default Programcard
