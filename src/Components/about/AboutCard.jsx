@@ -2,7 +2,6 @@ import React from "react";
 import Title from "../common/title/Title";
 import about2 from "../../assets/ABOUT2.png";
 import { homeAbout } from "../../dummydata";
-import AWrapper from "./AWrapper";
 import "./about.css";
 const AboutCard = () => {
   return (
@@ -18,7 +17,7 @@ const AboutCard = () => {
               Subtitle="LEARN ANYTHING"
               title="BENIFITS ABOUT ONLINE LEARNING EXPERTISE"
             />
-            <div className="items">
+            <div className="itemss">
               {homeAbout.map((val) => (
                 <div className="item flexSB">
                   <div className="img1">
@@ -35,7 +34,7 @@ const AboutCard = () => {
           </div>
         </div>
       </section>
-      <AWrapper />
+      
     </>
   );
 };

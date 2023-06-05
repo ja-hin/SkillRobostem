@@ -1,0 +1,128 @@
+.items{
+   width: 30%;
+   box-shadow: 2px 5px 11px #D2DBDB;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.flex{
+    display: flex;
+   height: 210px;
+    gap: 9px;
+}
+.imgy img{
+    width: 60px;
+    height: 60px;
+    background-color: #5FCBE7;
+    border-radius: 32%;
+}
+.texty{
+    display: flex;
+    flex-direction: column;
+    gap: 8px
+}
+.texty h1{
+    height: 90px;
+}
+.courseCard h3{
+    font-weight: 500;
+    color: #5FCBE7;
+}
+.dimg img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.boxy{
+    display: flex;
+    gap: 6px
+}
+.para{
+    align-items: center;
+    display: flex;
+}
+.outline-btn{
+    margin: 0;
+    box-shadow: none;
+    border: 2px solid #5FCBE7;
+   background-color: #5FCBE7;
+    transition: 0.5s;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.outline-btn:hover{
+    background-color: black;
+    color: #fff;
+}
+.grid2{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 26px;
+    row-gap: 30px;
+    column-gap: 60px;
+}
+
+.price{
+    background-color: #f8f8f8;
+    margin: 30px 0;
+    padding: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.enroll{
+    display: flex;
+    justify-content: center;
+}
+/* //////////////////////////////////////////////////// */
+.contain{
+    max-width: 85%;
+    margin: auto;
+}
+.grid3{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.boxyy{
+    display: flex;
+    gap: 6px;
+    background-color: #fff;
+    box-shadow: 0 5px 25px -2px rgb(0 0 0/6%);
+    padding: 30px 20px;
+    transition: .5s;
+    flex-direction: column;
+    cursor: pointer;
+    width: 17%;
+}
+.two2{
+    height: 185px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imgyy img{
+    height: 80px;
+    margin: auto;
+    
+    width: 80px;
+    background-color: #5FCBE7;
+    border-radius: 32%;
+}
+.online h1{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    margin: 20px 0;
+    text-align: center;
+}
+.online .cor{
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    color: #1eb2a6;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 5px 20px;
+}

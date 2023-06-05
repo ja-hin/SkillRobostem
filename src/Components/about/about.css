@@ -15,7 +15,7 @@
     
 }
 .aboutHome .right{
-    padding: 80px 50px;
+    padding: 45px 50px;
     
 }
 .aboutHome .items{
@@ -49,3 +49,14 @@
     font-size: 20px;
     margin-bottom: 15px;
 }
+/* @media screen and (max-width:768px){
+    .aboutHome{
+        margin-top: 40%;
+    }
+    .aboutHome .container3 .container1{
+        flex-direction: column-reverse;
+    }
+    .aboutHome .row{
+        width: 100%;
+    }
+} */
