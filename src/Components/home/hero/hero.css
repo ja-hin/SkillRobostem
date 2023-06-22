@@ -13,7 +13,7 @@
     z-index: -1; */
     
     width: 100%;
-    height: 100vh;
+    
     padding-top: 25px;
     /* padding-right: 50px; */ 
     color: #fff;
@@ -32,16 +32,32 @@
     margin: 0;padding: 0;
 }
 @media screen and (max-width:768px){
-    .margin{
-        height: 40vh;
-    }    
-    .hero{
-        background-position:right;
 
-        padding-top: 50%;
-        height: 80vh;
+    .hero{
+        
+        display: flex;
+        flex-direction: column-reverse;
+        height: 87vh;
+        justify-content: center;
     }
-    .hero.row{
+    
+    .imgg{
         width: 100%;
+    }
+    .img{
+        margin-top: 0%;
+    }
+    .container{
+        width: 100%;
+    }
+    .row{
+        width: 100%;
+    }
+    .row p{
+        padding-left: 11px;
+    }
+    .button{
+        display: flex;
+        justify-content: center;
     }
 }

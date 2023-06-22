@@ -4,6 +4,7 @@ import './Home.css'
 import AboutCard from '../about/AboutCard'
 import Programcard from '../Program/Programcard'
 import Onlineprogram from '../Program/Onlineprogram'
+import Contactadd from '../contact/contactadd'
 const Home = () => {
   return (
     <>
@@ -11,6 +12,7 @@ const Home = () => {
        <AboutCard/>
        <Programcard/>
        <Onlineprogram/>
+       <Contactadd/>
        
        
        

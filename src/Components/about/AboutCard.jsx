@@ -11,7 +11,7 @@ const AboutCard = () => {
           <div className="container3 ">
             <img src={about2} alt="" />
           </div>
-          <div className=" row right">
+          <div className="right">
             <div className="hei">
             <Title
               Subtitle="LEARN ANYTHING"

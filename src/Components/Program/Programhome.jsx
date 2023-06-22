@@ -11,7 +11,6 @@ const Programhome = () => {
     <Back title='Explore Courses'/>
    <Programcard/>
    <Onlineprogram/>
-    
     </>
   )
 }
