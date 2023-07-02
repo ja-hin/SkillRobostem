@@ -9,7 +9,7 @@
 }
 .contacts iframe{
     border: none;
-    height: 100%;
+    height: 50%;
     width: 100%;
 }
 .rightrows{
@@ -60,3 +60,29 @@ form .flexx input:first-child {
     font-size: 15px;
     word-spacing: 5px;
   }
+
+  
+@media screen and (min-width: 768px) and (max-width:1300px)  {
+    .shadow{
+        margin-top: 15%;
+    }
+    .leftrows {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+}
+.rightrows {
+    width: 50%;
+    padding: 34px;
+}
+.grid4 {
+    margin: 11px 0;
+    display: block;
+    line-height: 35px;
+}
+.boxe {
+   width: auto;
+}
+
+}

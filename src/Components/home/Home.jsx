@@ -5,6 +5,7 @@ import AboutCard from '../about/AboutCard'
 import Programcard from '../Program/Programcard'
 import Onlineprogram from '../Program/Onlineprogram'
 import Contactadd from '../contact/contactadd'
+import Footer from '../common/footer/footer'
 const Home = () => {
   return (
     <>
@@ -13,6 +14,7 @@ const Home = () => {
        <Programcard/>
        <Onlineprogram/>
        <Contactadd/>
+       
        
        
        

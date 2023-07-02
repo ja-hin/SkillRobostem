@@ -7,6 +7,7 @@ import Home from "./Components/home/Home";
 import About from "./Components/about/About";
 import programhome from "./Components/Program/Programhome";
 import Contact from "./Components/contact/Contact";
+import Footer from "./Components/common/footer/footer";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
           <Route path="/program" exact Component={programhome} />
           <Route path="/contact" exact Component={Contact} />
         </Routes>
+        <Footer/>
       </Router>
     </>
   );

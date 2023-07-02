@@ -1,6 +1,6 @@
 import React from "react";
 import "./hero.css";
-import bg from '../../../assets/bg.png'
+import bg from "../../../assets/bg.png";
 import Title from "../../common/title/Title";
 
 const Hero = () => {
@@ -8,19 +8,20 @@ const Hero = () => {
     <>
       <section className="hero">
         <div className="container">
-          <div className="row">      
-            <Title  title='Welcome to Skill Robostem'/>
+          <div className="row">
+            <Title title="Welcome to Skill Robostem" />
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Cupiditate quod magnam, eveniet reprehenderit cum iste expedita
-              consequatur dolorum earum, esse minus, inventore dolorem voluptas
-              illum repudiandae suscipit quisquam similique vero.
+              Skillrobostem Private Limited is an educational startup to
+              introduce Robotics, IoT, Artificial Intelligence, and Drones to
+              students with Hand-on experience.The Initiative to start this
+              company is to improve the Technical knowledge for a better
+              tomorrow and make them future ready with next Generation Skills.
             </p>
             <div className="button">
               <button className="primary-btn">
                 GET STARTED NOW <i className="fa fa-long-arrow-alt-right"></i>
               </button>
-              <button >
+              <button>
                 VIEW COURSE<i className="fa fa-long-arrow-alt-right"></i>
               </button>
             </div>
