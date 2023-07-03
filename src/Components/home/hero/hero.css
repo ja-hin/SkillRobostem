@@ -61,7 +61,7 @@
     justify-content: center;
   }
 }
-@media screen and (min-width: 389px) and (max-width: 767px) {
+@media screen and (min-width: 245px) and (max-width: 767px) {
   .toggle {
     right: -12px;
     top: -30px;
