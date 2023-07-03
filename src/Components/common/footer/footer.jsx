@@ -17,7 +17,7 @@ const Footer = () => {
           </div>
         </div>
       </section>
-      <footer>
+      <footer className="footer">
         <div className='container5 paddingg'>
           <div className='leftbox'>
             <h1>SKILLROBOSTEM</h1>

@@ -1,72 +1,72 @@
-.hero{
-    background-color: white;
-    /* background-size: cover;
+.hero {
+  background-color: white;
+  /* background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
     position: absolute; */
-    
-    display:flex;
-    flex-direction: row;
-    justify-content: end;
-    /* top: 0;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  /* top: 0;
     left: 0;
     z-index: -1; */
-    
-    width: 100%;
-    
-    padding-top: 25px;
-    /* padding-right: 50px; */ 
-    color: #fff;
-}
-.imgg{
-    width: 45%;
-  }
-  .img{
-      width: 100%;
-      margin-top: 20%;
-  }
-.hero #heading h3{
-    color: #fff;}
-.hero #heading{
-    text-align: center;
-    margin: 0;padding: 0;
-}
-@media screen and (min-width:768px)  and (max-width:1000px)  {
 
-    .hero{
-        
-        display: flex;
-        flex-direction: column-reverse;
-        height: 87vh;
-        justify-content: center;
-    }
-    
-    .imgg{
-        width: 100%;
-    }
-    .img{
-        margin-top: 0%;
-    }
-    .container{
-        width: 100%;
-    }
-    .row{
-        width: 100%;
-    }
-    .row p{
-        padding-left: 11px;
-    }
-    .button{
-        display: flex;
-        justify-content: center;
-    }
+  width: 100%;
+
+  padding-top: 25px;
+  /* padding-right: 50px; */
+  color: #fff;
 }
-@media screen and (min-width:389px) and (max-width:767px){
-    .toggle{
-        right: -12px;
-        top: -30px;
-    }
-    /* .flexSBB{
+.imgg {
+  width: 45%;
+}
+.img {
+  width: 100%;
+  margin-top: 20%;
+}
+.hero #heading h3 {
+  color: #fff;
+}
+.hero #heading {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+@media screen and (min-width: 768px) and (max-width: 1000px) {
+  .hero {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 87vh;
+    justify-content: center;
+  }
+
+  .imgg {
+    width: 100%;
+  }
+  .img {
+    margin-top: 0%;
+  }
+  .container {
+    width: 100%;
+  }
+  .row {
+    width: 100%;
+  }
+  .row p {
+    padding-left: 11px;
+  }
+  .button {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 389px) and (max-width: 767px) {
+  .toggle {
+    right: -12px;
+    top: -30px;
+  }
+  /* .flexSBB{
         width: 100vh;
         display: flex;
 
@@ -74,65 +74,101 @@
     header{
         width: 100vh;
     } */
-    .hero{
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    .imgg{
-        width: 100%;
-    }
-    .imgg img{
-        margin-top: 0%;
-        width: 100%;
-    }
-    #heading h1 {
-        font-size: 29px;
-    }
-    p{
-        font-size: 16px;
-    }
-    .button{
-        padding-left: 10px;
-
-    }
-    .primary-btn{
-        padding: 17px 13px;
-        margin: 10px 10px 0 0;
-    }
-    .secondbtn{
-        padding: 17px 13px;
-        margin: 10px 10px 0 0;
-    }
-    .container3{
-        width: 100%;
-    }
-    .container3 img{
-        width: 14rem;
+  .hero {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .imgg {
+    width: 100%;
+  }
+  .imgg img {
+    margin-top: 0%;
+    width: 100%;
+  }
+  #heading h1 {
+    font-size: 29px;
+  }
+  p {
+    font-size: 16px;
+  }
+  .button {
+    padding-left: 10px;
+  }
+  .primary-btn {
+    padding: 17px 13px;
+    margin: 10px 10px 0 0;
+  }
+  .secondbtn {
+    padding: 17px 13px;
+    margin: 10px 10px 0 0;
+  }
+  .container3 {
+    width: 100%;
+  }
+  .container3 img {
+    width: 14rem;
     height: 16rem;
-    }
-    .container{
-        width: 100%;
-    }
-    .row{
-        width: 100%;
-    }
-    .row #heading h1 {
-        font-size: 31px;
-        padding: 10px 2px ;
-    }
-    .row p{
-        font-size: 13px;
-        padding: 10px 9px   ;
-    
-    }
-    .aboutclass .container3 img{
-        width: 14rem;
-        height: 18rem;
-    }
-    .hei #heading h1{
-        font-size: 28px;
-    }
-    .aboutHome .right .itemss {
-        display: flex;
-    
+  }
+  .container {
+    width: 100%;
+  }
+  .row {
+    width: 100%;
+  }
+  .row #heading h1 {
+    font-size: 31px;
+    padding: 10px 2px;
+  }
+  .row p {
+    font-size: 13px;
+    padding: 10px 9px;
+  }
+  .aboutclass .container3 img {
+    width: 14rem;
+    height: 18rem;
+  }
+  .hei #heading h1 {
+    font-size: 28px;
+  }
+  .aboutHome .right .hei .itemss {
+    display: block;
+  }
+  .aboutHome .itemss .item {
+    display: flex;
+  }
+  .courseCard .items {
+    width: 100%;
+  }
+  .online .grid3 {
+    display: block;
+  }
+  .online .boxyy {
+    width: 100%;
+  }
+  .contacts .shadow {
+    display: block;
+  }
+  .contacts .shadow .rightrows {
+    width: 100%;
+  }
+  .contacts .grid4 {
+    display: block;
+  }
+  .contacts .boxe {
+    width: 100%;
+  }
+  .newletter .container4 {
+    display: block;
+  }
+  .footer .paddingg {
+    display: block;
+  }
+  .aboutus .container1 {
+    width: 100%;
+  }
+  .container1 img {
+    width: 117%;
+    height: 55%;
+    transform: translate(-21px, 100px);
+  }
 }

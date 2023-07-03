@@ -101,6 +101,7 @@ li{
         width: 100vh;
         height: 100vh;
         background-color: #5FCBE7;
+        z-index: 1;
         
     }
     header ul li{
